@@ -1,0 +1,35 @@
+/* Layout Principal com Grid */
+.container {
+    display: container;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    grid-template-areas:
+        "topo topo"
+        "corpo corpo"
+        "rodape rodape";
+    gap: 20px;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.topo {
+    grid-area: topo;
+    background: #132028;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    height: 150px;
+    display: grid;
+    align-items: center;
+    gap: 40px;
+}
+
+.rodape {
+    grid-area: rodape;
+    background: #7a7a7a;
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+    border-radius: 8px;
+}
