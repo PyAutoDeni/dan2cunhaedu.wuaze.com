@@ -724,6 +724,16 @@ body {
     font-size: 16px;
 }
 
+.botao-sugestao {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
 .proximas-votacoes {
     background: #e8f4fd;
     padding: 15px;
